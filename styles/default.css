@@ -33,6 +33,7 @@ h3{
 	height:50px;
 	padding: 5px;
 	background-color: black;
+	vertical-align: text-bottom;
 	color: #F60;
 	z-index: 3;
 }
@@ -42,15 +43,32 @@ h3{
 	color: white;
 
 }
+#head a{
+	color: inherit;
+	text-decoration: none;
+	}
+#head a:hover{
+	color: inherit;
+	border-bottom:1px solid #F60;
+	}
 #drawer{
 	position:relative;
 	background-color: #F60;
 	color: #F60;
 	height:25px;
 	top: -20px;
-	transition: all linear 100ms;
+	transition: all ease-out 100ms;
 	z-index: 0;
 }
+#drawer div{
+	width: 19.5%;
+	float: left;
+	text-align:center;
+	vertical-align:text-bottom;
+	font-size: 18px;
+	font-weight:700;
+	letter-spacing:-1px;
+	}
 
 #drawer:hover{
 	top: 0px;
