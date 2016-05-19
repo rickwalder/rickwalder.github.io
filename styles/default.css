@@ -56,7 +56,8 @@ h3{
 	background-color: #F60;
 	color: #F60;
 	height:25px;
-	top: -20px;
+	top: 0px;
+	color: white;
 	transition: all ease-out 100ms;
 	z-index: 0;
 }
