@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    transition:all ease-out 100ms;
+}
+
 body{
 	font: 12px Helvetica;
 	margin: 0px;
@@ -89,4 +94,24 @@ h3{
     	font-size: 18px;
 		font-weight:700;
 		letter-spacing:-1px;
+	}
+	#left{
+		width:100% !important;
+		}
+	#content{
+		color: red;
+		width:100% !important;
+		}
+	#right{
+		width:100% !important;
+		}
+}
+#content{
+
+	background-color:#F8F8F8;
+	height: 100vh;
+	width:calc(100% * 5/8);
+	margin-left:auto;
+	margin-right:auto;
+	
 }
